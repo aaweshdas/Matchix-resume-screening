@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# Generated artefacts (regenerate with `python train.py`)
+data/
+models/
+outputs/
+
+# OS / editor
+.DS_Store
+.idea/
+.vscode/
+*.log
+
+# Frontend & Dependencies
+node_modules/
+dist/
+dist-ssr/
+frontend/node_modules/
+frontend/dist/
+
+# Environment
+.env
+*.env
